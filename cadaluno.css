@@ -1,0 +1,105 @@
+body{
+    background-color: antiquewhite;
+}
+
+.razaoecpf{
+    display: flex;
+    gap: 0px 400px;
+}
+
+.emailetelefone{
+    display: flex;
+    gap: 0px 465px;
+}
+
+.enderecoenumero{
+    display: flex;
+    gap: 0px 340px;
+}
+
+.confignome{
+    width: 450px;
+}
+
+.configcpf{
+    width: 250px;
+}
+
+.configcaixastexto{
+    width: 350px;
+}
+
+.bairroecep{
+    display: flex;
+    gap: 0px 370px;
+}
+
+.cidadeestado{
+    display: flex;
+    gap: 0px 370px;
+}
+
+.cursosecarga{
+    display: flex;
+    gap: 0px 280px;
+}
+
+.configemail{
+    width: 450px;
+}
+
+.configtel{
+    width: 250px;
+}
+
+/* Configuração de dentro da caixa de texto (inputs)*/
+input{
+    border: 1px solid #e23baa;
+    border-radius: 10px;
+    background-color:pink;
+}
+
+/* Configuração de dentro das opções (select)*/
+select{
+    border: 1px solid #e23baa;
+    border-radius: 10px;
+    background-color:pink;
+}
+
+
+/*Configurações das divs dos inputs*/
+.dados{
+    display: flex;
+    font-weight: bold;
+    gap: 0px 50px;
+    height: 30px;
+}
+
+#botaolayout{
+    padding: 30px 250px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 30px;
+}
+
+#botao{
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+} 
+
+#botao:hover{
+    color: black;
+    background-color:#e23baa;
+    font-weight: bold;
+}
+

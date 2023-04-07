@@ -1,0 +1,43 @@
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border: 1px solid #e23baa;
+
+}
+
+th{
+    width: 200px;
+    height: 50px;
+}
+
+body{
+background-color: antiquewhite;
+}
+
+#botao{
+    background-color: pink;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: bold;
+} 
+
+#botaoeditar{
+    padding: 20px 120px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 30px;
+}
+
+#botao:hover{
+    color: black;
+    background-color:#e23baa;
+    font-weight: bold;
+}

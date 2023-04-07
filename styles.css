@@ -1,0 +1,11 @@
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    border: solid black 1px;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

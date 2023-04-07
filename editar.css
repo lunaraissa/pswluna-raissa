@@ -1,0 +1,59 @@
+body{
+background-color: antiquewhite;
+}
+.razaoecpf{
+    display: flex;
+    gap: 0px 120px;
+}
+
+.emailetelefone{
+    display: flex;
+    gap: 0px 185px;
+}
+
+.enderecoenumero{
+    display: flex;
+    gap: 0px 160px;
+}
+
+.confignome{
+    width: 450px;
+}
+
+.configcpf{
+    width: 250px;
+}
+
+.configcaixastexto{
+    width: 350px;
+}
+
+.bairroecep{
+    display: flex;
+    gap: 0px 183px;
+}
+
+.cidadeestado{
+    display: flex;
+    gap: 0px 180px;
+}
+
+.cursosecarga{
+    display: flex;
+    gap: 0px 280px;
+}
+
+.configemail{
+    width: 450px;
+}
+
+.configtel{
+    width: 250px;
+}
+
+.dados{
+    display: flex;
+    font-weight: bold;
+    gap: 0px 50px;
+    height: 30px;
+}
